@@ -74,6 +74,7 @@
   },
   "scripts": {
     "clean": "rm -rf node_modules && rm -f package-lock.json && npm install",
+    "prepare": "gulp prepublish",
     "prepublish": "gulp prepublish",
     "prepublishOnly": "npm run prune-shrinkwrap && gulp fixShrinkwrap",
     "postpublish": "npm run restore-shrinkwrap",
