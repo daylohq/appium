@@ -25,6 +25,7 @@
     "node": ">=8",
     "npm": ">=6"
   },
+  "os": ["darwin"],
   "main": "./build/lib/main.js",
   "bin": {
     "appium": "./build/lib/main.js"
